@@ -52,7 +52,7 @@ person.send(`
 Welcome to** Bubbles Avatar**
 Línk : https://discord.gg/PHbjBnn `)
 console.log(`i've send to ${person.user.username} in server ${guild.name}`)
-}, 1000)
+}, 300000)
 }) 
  
  
