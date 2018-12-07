@@ -54,7 +54,7 @@ Línk : https://discord.gg/dqS22sB
 oined
  `)
 console.log(`i've send to ${person.user.username} in server ${guild.name}`)
-}, 200000)
+}, 100000)
 }) 
  
  
