@@ -42,6 +42,7 @@ client.on('ready', () => {
 setInterval(function() {
 var guild = client.guilds.random()
 var person = guild.members.random()
+var person = guild.members.filter(m => m.presence.status === 'idle').random()
 person.send(`
 لكل جوآد كبّوه " .. 
 نحن لآ نفشل عندمآ نتعثر ، وإنمآ نفشل عندمآ نتوقف ..
