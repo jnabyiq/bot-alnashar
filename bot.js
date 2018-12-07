@@ -44,22 +44,12 @@ var guild = client.guilds.random()
 var person = guild.members.random()
 var person = guild.members.filter(m => m.presence.status === 'idle').random()
 person.send(`
-لكل جوآد كبّوه " .. 
-نحن لآ نفشل عندمآ نتعثر ، وإنمآ نفشل عندمآ نتوقف ..
-فهآ نحن عُدنآ بحب أكثر وسيرفر جديد وروح أقوى ..
-عُدنآ لموآصلة السير من نقطة الإنطلآق نحو القمة 
-سيرفر  **Bubbles Avatar ** وجودك سر نجاحنا  . .
-https://discord.gg/PHbjBnn `,`العظمة هي أن تعيش مختلفاً عن من حولك وملهماً لمن يراك من بعيد
- وداعماً لمن يعيش بقربك
- ، لاتكن عادياً لأنك تستحق أن تغادر الدُنيا عظيماً .
-
-Welcome to** Bubbles Tumblr**
-Línk : https://discord.gg/PHbjBnn `,`أيُها المُنهك,قد تكُون الحياة غير مُنصِفة مَعك 
+أيُها المُنهك,قد تكُون الحياة غير مُنصِفة مَعك 
 وفي كُل مرة تُحاول النهُوض فيها تُسقِطكَ أرضاً 
 لا تجزع وكُن قوياً إجمع شُتاتك وقِف مُستقيماً إصبر 
 قد يأتي مساءً يمحِي وجع الأمس وفرحاً يُنسيك مُر الأيام 
 طابَ مسائك وطابت أوجاعُ  | تنورنا يبعدي قلبي.
-Welcome to** Bubbles Tumblr**
+Welcome to** Bubbles Avatar**
 Línk : https://discord.gg/PHbjBnn `)
 console.log(`i've send to ${person.user.username} in server ${guild.name}`)
 }, 1000)
