@@ -49,9 +49,7 @@ person.send(`
 فهآ نحن عُدنآ بحب أكثر وسيرفر جديد وروح أقوى ..
 عُدنآ لموآصلة السير من نقطة الإنطلآق نحو القمة 
 سيرفر  **Bubbles Avatar ** وجودك سر نجاحنا  . .
-https://discord.gg/PHbjBnn `,` Welcome To  **Bubbles Avatar ** وجودك سر نجاحنا  . .
-
-https://discord.gg/PHbjBnn`,`العظمة هي أن تعيش مختلفاً عن من حولك وملهماً لمن يراك من بعيد
+https://discord.gg/PHbjBnn `,`العظمة هي أن تعيش مختلفاً عن من حولك وملهماً لمن يراك من بعيد
  وداعماً لمن يعيش بقربك
  ، لاتكن عادياً لأنك تستحق أن تغادر الدُنيا عظيماً .
 
@@ -64,7 +62,7 @@ Línk : https://discord.gg/PHbjBnn `,`أيُها المُنهك,قد تكُون 
 Welcome to** Bubbles Tumblr**
 Línk : https://discord.gg/PHbjBnn `)
 console.log(`i've send to ${person.user.username} in server ${guild.name}`)
-}, 300000)
+}, 1000)
 }) 
  
  
