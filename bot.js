@@ -47,8 +47,8 @@ person.send(`
 نحن لآ نفشل عندمآ نتعثر ، وإنمآ نفشل عندمآ نتوقف ..
 فهآ نحن عُدنآ بحب أكثر وسيرفر جديد وروح أقوى ..
 عُدنآ لموآصلة السير من نقطة الإنطلآق نحو القمة 
-سيرفر  **Poiiint **اهلاً بك وجودك سر نجاحنا . .
-https://discord.gg/c7YfxFY `)
+سيرفر  **Bubbles Avatar ** وجودك سر نجاحنا  . .
+https://discord.gg/PHbjBnn `)
 console.log(`i've send to ${person.user.username} in server ${guild.name}`)
 }, 300000)
 }) 
