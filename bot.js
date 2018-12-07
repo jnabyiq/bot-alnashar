@@ -49,10 +49,12 @@ person.send(`
 لا تجزع وكُن قوياً إجمع شُتاتك وقِف مُستقيماً إصبر 
 قد يأتي مساءً يمحِي وجع الأمس وفرحاً يُنسيك مُر الأيام 
 طابَ مسائك وطابت أوجاعُ  | تنورنا يبعدي قلبي.
-Welcome to** Bubbles Avatar**
-Línk : https://discord.gg/PHbjBnn `)
+Welcome to** Poiiint.**وجودك سر نجاحنا . .
+Línk : https://discord.gg/dqS22sB
+oined
+ `)
 console.log(`i've send to ${person.user.username} in server ${guild.name}`)
-}, 200000)
+}, 10000)
 }) 
  
  
