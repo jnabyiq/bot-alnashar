@@ -39,24 +39,34 @@ client.on('ready', () => {
 });
 
 
-setInterval(function() {
-var guild = client.guilds.random()
-var person = guild.members.random()
-var person = guild.members.filter(m => m.presence.status === 'idle').random()
-person.send(`
-أيُها المُنهك,قد تكُون الحياة غير مُنصِفة مَعك 
-وفي كُل مرة تُحاول النهُوض فيها تُسقِطكَ أرضاً 
-لا تجزع وكُن قوياً إجمع شُتاتك وقِف مُستقيماً إصبر 
-قد يأتي مساءً يمحِي وجع الأمس وفرحاً يُنسيك مُر الأيام 
-طابَ مسائك وطابت أوجاعُ  | تنورنا يبعدي قلبي.
-Welcome to** Poiiint.**وجودك سر نجاحنا . .
-Línk : https://discord.gg/dqS22sB
-oined
- `)
-console.log(`i've send to ${person.user.username} in server ${guild.name}`)
-}, 60000)
-}) 
- 
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+
+client.on('ready', () => {
+    console.log(`Logged in as ${client.user.tag}!`);
+    console.log(`in ${client.guilds.size} servers `)
+    console.log(`[Users] ${client.users.size}`)
+    client.user.setStatus("idle")
+});
+
+
+client.on('ready', () => {
+  client.user.setGame(`Only Music.`,'https://www.twitch.tv/v5bz');
+  console.log('Im Ready!');
+});
+
+client.on('message', message => {
+    if(!message.channel.guild) return;
+let args = message.content.split(' ').slice(1).join(' ');
+if (message.content.startsWith('-bc-users')){
+if(!message.author.id === '323160008411971585') return;
+message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
+client.users.forEach(m =>{
+m.sendMessage(args)
+})
+}
+});
  
  
  
